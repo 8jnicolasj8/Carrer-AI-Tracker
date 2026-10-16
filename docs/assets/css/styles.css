@@ -179,14 +179,19 @@ ul {
   margin-top: var(--s-4);
 }
 
-/* Glass surface */
+/* Glass surface: translucent fill + hairline border + soft glow.
+   Deliberately no backdrop-filter: it is a big paint/layout cost and the
+   layered translucent gradients read as glass on a dark background. */
 .glass {
-  background: var(--surface);
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.045),
+      rgba(255, 255, 255, 0.008)
+    ),
+    rgba(9, 30, 40, 0.74);
   border: 1px solid var(--border);
   border-radius: var(--r-card);
   box-shadow: var(--shadow-glow);
-  -webkit-backdrop-filter: blur(12px);
-  backdrop-filter: blur(12px);
 }
 
 /* --- Skip link ----------------------------------------------------------- */
@@ -275,10 +280,8 @@ ul {
   height: var(--nav-h);
   display: flex;
   align-items: center;
-  background: rgba(5, 18, 26, 0.72);
+  background: rgba(5, 18, 26, 0.94);
   border-bottom: 1px solid var(--border);
-  -webkit-backdrop-filter: blur(14px);
-  backdrop-filter: blur(14px);
 }
 
 .nav__inner {
@@ -475,19 +478,19 @@ ul {
   height: 8px;
   border-radius: 50%;
   background: var(--accent);
-  box-shadow: 0 0 0 0 rgba(52, 227, 180, 0.6);
   animation: pulse 2.4s var(--ease-in-out) infinite;
 }
 
+/* Only opacity and transform are animated (compositor-friendly). */
 @keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(52, 227, 180, 0.55);
-  }
-  70% {
-    box-shadow: 0 0 0 8px rgba(52, 227, 180, 0);
-  }
+  0%,
   100% {
-    box-shadow: 0 0 0 0 rgba(52, 227, 180, 0);
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(0.78);
   }
 }
 
@@ -542,6 +545,15 @@ ul {
 
 .card h3 {
   font-size: var(--fs-h3);
+}
+
+.card__kicker {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--accent);
+  margin-top: calc(-1 * var(--s-2));
 }
 
 .card p {
@@ -1051,10 +1063,7 @@ details p {
 
 /* Solid fallback when the user prefers reduced transparency. */
 @media (prefers-reduced-transparency: reduce) {
-  .glass,
-  .nav {
-    -webkit-backdrop-filter: none;
-    backdrop-filter: none;
+  .glass {
     background: var(--surface-solid);
   }
 }
