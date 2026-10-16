@@ -24,9 +24,13 @@ window.I18N = {
     "lang.en": "EN",
     "lang.es": "ES",
 
+    "a11y.skip": "Skip to content",
+    "a11y.mainNav": "Main navigation",
+    "a11y.footerNav": "Footer navigation",
+
     "hero.eyebrow": "AI-powered companion for FIFA 16 Career Mode",
     "hero.titleA": "Level Up Your",
-    "hero.titleB": "FIFA 16 Career Mode",
+    "hero.titleB": "FIFA\u00a016 Career Mode",
     "hero.sub":
       "A desktop app that reads your FIFA 16 career save and turns it into results, club record, squad detail, game news and a staff room. Read-only: it never writes to your saves.",
     "hero.ctaPrimary": "Download for Windows",
@@ -46,9 +50,11 @@ window.I18N = {
     "features.c1.title": "Save-aware dashboard",
     "features.c1.desc":
       "Every time you save, your career updates. No live clock, no guessing.",
+    "features.c1.kicker": "Save-aware sync",
     "features.c1.b1": "Match results and minutes played after each save",
     "features.c1.b2": "Your club's record and squad stats",
-    "features.c1.b3": "News from your own game: rumors and injuries",
+    "features.c1.b3": "Budget and finances from your save",
+    "features.c1.b4": "News from your own game: rumors and injuries",
     "features.c2.title": "Staff room",
     "features.c2.desc":
       "Your assistant manager, youth scout, club president and press officer react to what happens in your career.",
@@ -84,6 +90,8 @@ window.I18N = {
     "ai.role4": "Press Officer",
     "ai.badge": "Coming in Beta 0.3",
     "ai.note":
+      "Your data stays on your PC. AI features need your own API key (or a local model).",
+    "ai.note2":
       "In Beta 0.1 the staff room uses deterministic templates: no AI and no network.",
     "ai.keyLabel": "Your API key",
     "ai.providerNote": "OpenAI-compatible: local models and more",
@@ -125,8 +133,10 @@ window.I18N = {
     "download.req2": "FIFA 16 for PC with Career Mode",
     "download.ctaPrimary": "Download for Windows",
     "download.ctaPrimarySoon": "Coming soon",
+    "download.cost":
+      "Free and open source. You only pay your AI provider, if you use one.",
     "download.note":
-      "Windows may show a SmartScreen warning because the app is not code-signed yet.",
+      "Windows may show a SmartScreen warning because the app isn't code-signed yet.",
     "download.build": "Build from source",
     "download.disclaimer":
       "The app reads the files of your own FIFA 16 installation. It never modifies your saves or the game, and it includes no files from EA.",
@@ -179,9 +189,13 @@ window.I18N = {
     "lang.en": "EN",
     "lang.es": "ES",
 
+    "a11y.skip": "Saltar al contenido",
+    "a11y.mainNav": "Navegaci\u00f3n principal",
+    "a11y.footerNav": "Navegaci\u00f3n del pie",
+
     "hero.eyebrow": "Compañero con IA para el Modo Carrera de FIFA 16",
-    "hero.titleA": "Lleva al siguiente nivel tu",
-    "hero.titleB": "Modo Carrera de FIFA 16",
+    "hero.titleA": "Sube de nivel tu",
+    "hero.titleB": "Modo Carrera de FIFA\u00a016",
     "hero.sub":
       "Una app de escritorio que lee el guardado de tu carrera de FIFA 16 y lo convierte en resultados, récord del club, detalle de plantilla, noticias del juego y una sala de staff. Solo lectura: nunca escribe en tus guardados.",
     "hero.ctaPrimary": "Descargar para Windows",
@@ -202,9 +216,11 @@ window.I18N = {
     "features.c1.title": "Panel al día con tu guardado",
     "features.c1.desc":
       "Cada vez que guardas, tu carrera se actualiza. Sin reloj en vivo ni suposiciones.",
+    "features.c1.kicker": "Sincronización al guardar",
     "features.c1.b1": "Resultados y minutos jugados después de cada guardado",
-    "features.c1.b2": "récord del club y estadísticas del plantel",
-    "features.c1.b3": "Noticias de tu propio juego: rumores y lesiones",
+    "features.c1.b2": "Récord del club y estadísticas del plantel",
+    "features.c1.b3": "Presupuesto y finanzas de tu guardado",
+    "features.c1.b4": "Noticias de tu propio juego: rumores y lesiones",
     "features.c2.title": "Sala de staff",
     "features.c2.desc":
       "Tu asistente técnico, ojeador de juveniles, presidente y encargado de prensa reaccionan a lo que pasa en tu carrera.",
@@ -240,6 +256,8 @@ window.I18N = {
     "ai.role4": "Encargado de prensa",
     "ai.badge": "Llega en la Beta 0.3",
     "ai.note":
+      "Tus datos se quedan en tu PC. Las funciones de IA necesitan tu propia clave de API (o un modelo local).",
+    "ai.note2":
       "En la Beta 0.1 la sala de staff usa plantillas deterministas: sin IA y sin red.",
     "ai.keyLabel": "Tu clave de API",
     "ai.providerNote": "Compatible con OpenAI: modelos locales y más",
@@ -284,6 +302,8 @@ window.I18N = {
     "download.req2": "FIFA 16 para PC con Modo Carrera",
     "download.ctaPrimary": "Descargar para Windows",
     "download.ctaPrimarySoon": "Próximamente",
+    "download.cost":
+      "Gratis y open source. Solo pagas a tu proveedor de IA, si usas uno.",
     "download.note":
       "Windows puede mostrar una advertencia de SmartScreen porque la app todavía no está firmada digitalmente.",
     "download.build": "Compilar desde el codigo fuente",

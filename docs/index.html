@@ -40,6 +40,16 @@
 
     <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="assets/img/favicon.svg" />
+
+    <!-- Language alternates: the page switches language client-side. -->
+    <link rel="alternate" hreflang="en" href="./" />
+    <link rel="alternate" hreflang="es" href="?lang=es" />
+    <link rel="alternate" hreflang="x-default" href="./" />
+
+    <script>
+      /* Progressive enhancement: reveal-on-scroll only when JS is available. */
+      document.documentElement.className += " js";
+    </script>
     <link rel="stylesheet" href="assets/css/styles.css" />
 
     <script defer src="config.js"></script>
@@ -266,7 +276,8 @@
         <nav
           class="nav__links"
           id="nav-links"
-          aria-label="Main"
+          aria-label="Main navigation"
+          data-i18n-aria-label="a11y.mainNav"
         >
           <a href="#home" data-i18n="nav.home">Home</a>
           <a href="#features" data-i18n="nav.features">Features</a>
@@ -305,18 +316,16 @@
       <section class="section hero" id="home">
         <div class="container hero__grid">
           <div>
-            <p class="eyebrow" data-i18n="hero.eyebrow">
-              AI-powered companion for FIFA 16 Career Mode
-            </p>
+            <p class="eyebrow" data-i18n="hero.eyebrow">AI-powered companion for FIFA 16 Career Mode</p>
             <h1>
               <span data-i18n="hero.titleA">Level Up Your</span>
-              <span class="accent" data-i18n="hero.titleB">FIFA 16 Career Mode</span>
+              <span class="accent" data-i18n="hero.titleB">FIFA 16 Career Mode</span>
             </h1>
-            <p class="hero__sub" data-i18n="hero.sub"></p>
+            <p class="hero__sub" data-i18n="hero.sub">A desktop app that reads your FIFA 16 career save and turns it into results, club record, squad detail, game news and a staff room. Read-only: it never writes to your saves.</p>
             <div class="hero__cta">
               <a class="btn btn--primary" data-cta="primary" href="#download">
                 <svg class="btn__icon" aria-hidden="true"><use href="#i-download" /></svg>
-                <span data-cta-label>Download for Windows</span>
+                <span data-cta-label>Coming soon</span>
               </a>
               <a class="btn btn--ghost" data-link="repo" href="#">
                 <svg class="btn__icon" aria-hidden="true"><use href="#i-github" /></svg>
@@ -352,8 +361,10 @@
               src="assets/img/hero-preview.svg"
               width="900"
               height="640"
-              alt="Concept preview of the Career AI Tracker dashboard."
+              alt="Concept preview of the Career AI Tracker dashboard for a fictional club."
               data-i18n-alt="hero.alt"
+              fetchpriority="high"
+              decoding="async"
             />
           </div>
         </div>
@@ -363,36 +374,38 @@
       <section class="section" id="features">
         <div class="container">
           <div class="section-head reveal">
-            <h2 data-i18n="features.title">Everything your career mode needs</h2>
-            <p class="lead" data-i18n="features.sub"></p>
+            <h2 data-i18n="features.title">Everything your career mode needs, in one window</h2>
+            <p class="lead" data-i18n="features.sub">The app reads your save and shows what the game already recorded, without touching it.</p>
           </div>
           <div class="grid-3">
             <article class="card glass reveal">
               <div class="card__icon"><svg aria-hidden="true"><use href="#i-check-circle" /></svg></div>
+              <p class="card__kicker" data-i18n="features.c1.kicker">Save-aware sync</p>
               <h3 data-i18n="features.c1.title">Save-aware dashboard</h3>
-              <p data-i18n="features.c1.desc"></p>
+              <p data-i18n="features.c1.desc">Every time you save, your career updates. No live clock, no guessing.</p>
               <ul>
-                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c1.b1"></span></li>
-                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c1.b2"></span></li>
-                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c1.b3"></span></li>
+                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c1.b1">Match results and minutes played after each save</span></li>
+                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c1.b2">Your club's record and squad stats</span></li>
+                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c1.b3">Budget and finances from your save</span></li>
+                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c1.b4">News from your own game: rumors and injuries</span></li>
               </ul>
             </article>
             <article class="card glass reveal">
               <div class="card__icon"><svg aria-hidden="true"><use href="#i-users" /></svg></div>
               <h3 data-i18n="features.c2.title">Staff room</h3>
-              <p data-i18n="features.c2.desc"></p>
+              <p data-i18n="features.c2.desc">Your assistant manager, youth scout, club president and press officer react to what happens in your career.</p>
               <ul>
-                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c2.b1"></span></li>
-                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c2.b2"></span></li>
+                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c2.b1">Rule-based messages in the beta</span></li>
+                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c2.b2">AI from Beta 0.3, with your own key</span></li>
               </ul>
             </article>
             <article class="card glass reveal">
               <div class="card__icon"><svg aria-hidden="true"><use href="#i-flag" /></svg></div>
               <h3 data-i18n="features.c3.title">Club events with consequences</h3>
-              <p data-i18n="features.c3.desc"></p>
+              <p data-i18n="features.c3.desc">Disciplinary issues, injuries or board pressure, where your decisions matter.</p>
               <ul>
-                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c3.b1"></span></li>
-                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c3.b2"></span></li>
+                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c3.b1">The app can check your save to see if you honored a decision</span></li>
+                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c3.b2">For example, whether you kept a player on the bench for N matches</span></li>
               </ul>
             </article>
           </div>
@@ -404,23 +417,23 @@
         <div class="container">
           <div class="section-head reveal">
             <h2 data-i18n="how.title">How it works</h2>
-            <p class="lead" data-i18n="how.sub"></p>
+            <p class="lead" data-i18n="how.sub">Three steps, no account and no live connection.</p>
           </div>
           <ol class="steps">
             <li class="step glass reveal">
               <span class="step__num">1</span>
               <h3 data-i18n="how.s1.title">Play and save</h3>
-              <p data-i18n="how.s1.desc"></p>
+              <p data-i18n="how.s1.desc">Keep playing your career mode as usual and save when the game does.</p>
             </li>
             <li class="step glass reveal">
               <span class="step__num">2</span>
               <h3 data-i18n="how.s2.title">The app reads your save, read-only</h3>
-              <p data-i18n="how.s2.desc"></p>
+              <p data-i18n="how.s2.desc">It reads your career save to find results, minutes, record, budget, squad and news. Nothing is modified.</p>
             </li>
             <li class="step glass reveal">
               <span class="step__num">3</span>
               <h3 data-i18n="how.s3.title">Your staff and events react</h3>
-              <p data-i18n="how.s3.desc"></p>
+              <p data-i18n="how.s3.desc">Your staff room and club events update from what the save shows. Rules in Beta 0.1; AI in Beta 0.3.</p>
             </li>
           </ol>
         </div>
@@ -432,7 +445,7 @@
           <div class="reveal">
             <p class="eyebrow" data-i18n="ai.eyebrow">Bring your own AI key</p>
             <h2 data-i18n="ai.title">Use your own AI provider</h2>
-            <p class="lead" data-i18n="ai.sub"></p>
+            <p class="lead" data-i18n="ai.sub">From Beta 0.3, connect your preferred AI provider with your own key. No account, no telemetry, and your keys stay on your PC.</p>
             <div class="providers">
               <span class="chip"><svg aria-hidden="true"><use href="#i-spark" /></svg>OpenAI</span>
               <span class="chip">Anthropic</span>
@@ -445,7 +458,8 @@
               <svg width="18" height="18" aria-hidden="true"><use href="#i-info" /></svg>
               <span data-i18n="ai.badge">Coming in Beta 0.3</span>
             </p>
-            <p class="note" data-i18n="ai.note"></p>
+            <p class="note" data-i18n="ai.note">Your data stays on your PC. AI features need your own API key (or a local model).</p>
+            <p class="note" data-i18n="ai.note2">In Beta 0.1 the staff room uses deterministic templates: no AI and no network.</p>
           </div>
 
           <div class="keycard glass reveal">
@@ -469,24 +483,24 @@
         <div class="container">
           <div class="section-head reveal">
             <h2 data-i18n="roadmap.title">Roadmap</h2>
-            <p class="lead" data-i18n="roadmap.sub"></p>
+            <p class="lead" data-i18n="roadmap.sub">Three betas, each one adding a layer.</p>
           </div>
           <div class="roadmap">
             <article class="phase phase--current glass reveal">
               <span class="phase__tag" data-i18n="roadmap.p1.tag">Beta 0.1</span>
-              <h3 data-i18n="roadmap.p1.title"></h3>
-              <p data-i18n="roadmap.p1.desc"></p>
+              <h3 data-i18n="roadmap.p1.title">Dashboard, squad and staff room</h3>
+              <p data-i18n="roadmap.p1.desc">Rule-based messages and club events. No AI and no network.</p>
               <span class="phase__badge" data-i18n="roadmap.current">Current</span>
             </article>
             <article class="phase glass reveal">
               <span class="phase__tag" data-i18n="roadmap.p2.tag">Beta 0.2</span>
-              <h3 data-i18n="roadmap.p2.title"></h3>
-              <p data-i18n="roadmap.p2.desc"></p>
+              <h3 data-i18n="roadmap.p2.title">Save reading built in</h3>
+              <p data-i18n="roadmap.p2.desc">Automatic save reading integrated and a Windows installer.</p>
             </article>
             <article class="phase glass reveal">
               <span class="phase__tag" data-i18n="roadmap.p3.tag">Beta 0.3</span>
-              <h3 data-i18n="roadmap.p3.title"></h3>
-              <p data-i18n="roadmap.p3.desc"></p>
+              <h3 data-i18n="roadmap.p3.title">AI staff and events</h3>
+              <p data-i18n="roadmap.p3.desc">AI staff and club events, using your own key.</p>
             </article>
           </div>
         </div>
@@ -497,12 +511,12 @@
         <div class="container">
           <div class="section-head reveal">
             <h2 data-i18n="shots.title">Screenshots</h2>
-            <p class="lead" data-i18n="shots.sub"></p>
+            <p class="lead" data-i18n="shots.sub">Concept previews built with a fictional club and players. They will be replaced by real captures.</p>
           </div>
           <div class="shots">
             <figure class="shot glass reveal">
               <div class="shot__frame">
-                <img src="assets/img/preview-dashboard.svg" width="720" height="460" alt="" data-i18n-alt="shots.s1.alt" />
+                <img src="assets/img/preview-dashboard.svg" width="720" height="460" alt="Concept preview: dashboard with club record, budget and match feed." decoding="async" data-i18n-alt="shots.s1.alt" />
               </div>
               <figcaption>
                 <h3 data-i18n="shots.s1">Dashboard</h3>
@@ -511,7 +525,7 @@
             </figure>
             <figure class="shot glass reveal">
               <div class="shot__frame">
-                <img src="assets/img/preview-squad.svg" width="720" height="460" alt="" data-i18n-alt="shots.s2.alt" />
+                <img src="assets/img/preview-squad.svg" width="720" height="460" alt="Concept preview: squad table with player detail panel." decoding="async" data-i18n-alt="shots.s2.alt" />
               </div>
               <figcaption>
                 <h3 data-i18n="shots.s2">Squad</h3>
@@ -520,7 +534,7 @@
             </figure>
             <figure class="shot glass reveal">
               <div class="shot__frame">
-                <img src="assets/img/preview-staff.svg" width="720" height="460" alt="" data-i18n-alt="shots.s3.alt" />
+                <img src="assets/img/preview-staff.svg" width="720" height="460" alt="Concept preview: staff room with conversations and events." decoding="async" data-i18n-alt="shots.s3.alt" />
               </div>
               <figcaption>
                 <h3 data-i18n="shots.s3">Staff room</h3>
@@ -529,7 +543,7 @@
             </figure>
             <figure class="shot glass reveal">
               <div class="shot__frame">
-                <img src="assets/img/preview-settings.svg" width="720" height="460" alt="" data-i18n-alt="shots.s4.alt" />
+                <img src="assets/img/preview-settings.svg" width="720" height="460" alt="Concept preview: settings with AI keys and save sync." decoding="async" data-i18n-alt="shots.s4.alt" />
               </div>
               <figcaption>
                 <h3 data-i18n="shots.s4">Settings</h3>
@@ -545,15 +559,15 @@
         <div class="container">
           <div class="download glass reveal">
             <h2 data-i18n="download.title">Download</h2>
-            <p class="lead" data-i18n="download.sub"></p>
+            <p class="lead" data-i18n="download.sub">A free Windows app. It reads files from your own game installation; it does not include any EA content.</p>
             <div class="reqs">
-              <span class="chip"><svg aria-hidden="true"><use href="#i-window" /></svg><span data-i18n="download.req1"></span></span>
-              <span class="chip"><svg aria-hidden="true"><use href="#i-flag" /></svg><span data-i18n="download.req2"></span></span>
+              <span class="chip"><svg aria-hidden="true"><use href="#i-window" /></svg><span data-i18n="download.req1">Windows 10 or 11</span></span>
+              <span class="chip"><svg aria-hidden="true"><use href="#i-flag" /></svg><span data-i18n="download.req2">FIFA 16 for PC with Career Mode</span></span>
             </div>
             <div class="hero__cta">
               <a class="btn btn--primary" data-cta="primary" href="#download">
                 <svg class="btn__icon" aria-hidden="true"><use href="#i-download" /></svg>
-                <span data-cta-label>Download for Windows</span>
+                <span data-cta-label>Coming soon</span>
               </a>
               <a class="btn btn--ghost" data-link="repo" href="#">
                 <svg class="btn__icon" aria-hidden="true"><use href="#i-github" /></svg>
@@ -561,9 +575,11 @@
               </a>
             </div>
             <p class="note">
-              <span data-i18n="download.note"></span>
+              <span data-i18n="download.cost">Free and open source. You only pay your AI provider, if you use one.</span>
               <br />
-              <span data-i18n="download.disclaimer"></span>
+              <span data-i18n="download.note">Windows may show a SmartScreen warning because the app isn't code-signed yet.</span>
+              <br />
+              <span data-i18n="download.disclaimer">The app reads the files of your own FIFA 16 installation. It never modifies your saves or the game, and it includes no files from EA.</span>
             </p>
           </div>
         </div>
@@ -577,36 +593,36 @@
           </div>
           <div class="faq">
             <details class="reveal">
-              <summary><span data-i18n="faq.q1"></span></summary>
-              <p data-i18n="faq.a1"></p>
+              <summary><span data-i18n="faq.q1">Does it modify my saves?</span></summary>
+              <p data-i18n="faq.a1">No. It is read-only and never writes to your save folder or the game folder.</p>
             </details>
             <details class="reveal">
-              <summary><span data-i18n="faq.q2"></span></summary>
-              <p data-i18n="faq.a2"></p>
+              <summary><span data-i18n="faq.q2">Does it work with other FIFA games or EA FC?</span></summary>
+              <p data-i18n="faq.a2">Only FIFA 16 for PC for now.</p>
             </details>
             <details class="reveal">
-              <summary><span data-i18n="faq.q3"></span></summary>
-              <p data-i18n="faq.a3"></p>
+              <summary><span data-i18n="faq.q3">Do I need an AI key?</span></summary>
+              <p data-i18n="faq.a3">No. AI is optional and arrives in Beta 0.3; the beta uses deterministic templates.</p>
             </details>
             <details class="reveal">
-              <summary><span data-i18n="faq.q4"></span></summary>
-              <p data-i18n="faq.a4"></p>
+              <summary><span data-i18n="faq.q4">Where are my keys stored?</span></summary>
+              <p data-i18n="faq.a4">On your PC, in your system's secure storage.</p>
             </details>
             <details class="reveal">
-              <summary><span data-i18n="faq.q5"></span></summary>
-              <p data-i18n="faq.a5"></p>
+              <summary><span data-i18n="faq.q5">Is there live match coverage?</span></summary>
+              <p data-i18n="faq.a5">No. The save only changes when the game saves, so the app updates after each save.</p>
             </details>
             <details class="reveal">
-              <summary><span data-i18n="faq.q6"></span></summary>
-              <p data-i18n="faq.a6"></p>
+              <summary><span data-i18n="faq.q6">Does it include game files?</span></summary>
+              <p data-i18n="faq.a6">No. It includes no files from EA or FIFA.</p>
             </details>
             <details class="reveal">
-              <summary><span data-i18n="faq.q7"></span></summary>
-              <p data-i18n="faq.a7"></p>
+              <summary><span data-i18n="faq.q7">Is it affiliated with EA?</span></summary>
+              <p data-i18n="faq.a7">No. It is an independent community project.</p>
             </details>
             <details class="reveal">
-              <summary><span data-i18n="faq.q8"></span></summary>
-              <p data-i18n="faq.a8"></p>
+              <summary><span data-i18n="faq.q8">How do I report a bug or contribute?</span></summary>
+              <p data-i18n="faq.a8">Through GitHub issues and pull requests.</p>
             </details>
           </div>
         </div>
@@ -620,13 +636,17 @@
             <svg aria-hidden="true"><use href="#i-spark" /></svg>
             <span>Career AI Tracker<small>FIFA 16 Companion</small></span>
           </a>
-          <nav class="footer__links" aria-label="Footer">
+          <nav
+            class="footer__links"
+            aria-label="Footer navigation"
+            data-i18n-aria-label="a11y.footerNav"
+          >
             <a data-link="repo" href="#" data-i18n="footer.github">GitHub</a>
             <a data-link="issues" href="#" data-i18n="footer.issues">Issues</a>
             <a data-link="license" href="#" data-i18n="footer.license">MIT license</a>
           </nav>
         </div>
-        <p class="footer__legal" data-i18n="footer.legal"></p>
+        <p class="footer__legal" data-i18n="footer.legal">Career AI Tracker is an independent community project. It is not affiliated with, endorsed or sponsored by Electronic Arts or FIFA. FIFA and FIFA 16 are trademarks of their respective owners and are mentioned only to indicate compatibility.</p>
         <p class="footer__meta">
           <span data-i18n="footer.versionLabel">Version</span>:
           <span id="app-version">Beta 0.1</span>

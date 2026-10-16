@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Update this sitemap URL after you set REPO_URL and enable GitHub Pages.
-Sitemap: https://your-username.github.io/career-ai-tracker/sitemap.xml
+Sitemap: https://8jnicolasj8.github.io/Carrer-AI-Tracker/sitemap.xml

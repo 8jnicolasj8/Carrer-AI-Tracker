@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Page not found - Career AI Tracker</title>
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#05121a" />
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+    <style>
+      :root {
+        --bg: #05121a;
+        --accent: #34e3b4;
+        --accent-ink: #04231d;
+        --text: #eaf5f4;
+        --muted: #9db4bd;
+        --border: rgba(120, 224, 208, 0.16);
+        --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 1.5rem;
+        background: var(--bg);
+        color: var(--text);
+        font-family: var(--font-sans);
+        text-align: center;
+      }
+      .box {
+        max-width: 34rem;
+        padding: 2.5rem;
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        background: rgba(10, 32, 42, 0.62);
+      }
+      .code {
+        font-size: 3.5rem;
+        font-weight: 800;
+        color: var(--accent);
+        line-height: 1;
+        margin: 0 0 1rem;
+      }
+      p { color: var(--muted); }
+      a.btn {
+        display: inline-block;
+        margin-top: 1.5rem;
+        padding: 0.7rem 1.3rem;
+        border-radius: 999px;
+        background: linear-gradient(180deg, var(--accent), #16c79b);
+        color: var(--accent-ink);
+        font-weight: 600;
+        text-decoration: none;
+      }
+      a.btn:active { transform: scale(0.97); }
+    </style>
+  </head>
+  <body>
+    <main class="box">
+      <p class="code">404</p>
+      <h1>Page not found</h1>
+      <p>
+        The page you are looking for does not exist. It may have moved or the
+        link may be wrong.
+      </p>
+      <a class="btn" href="./">Back to the landing page</a>
+    </main>
+  </body>
+</html>

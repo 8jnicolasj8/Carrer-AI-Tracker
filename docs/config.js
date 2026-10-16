@@ -11,8 +11,8 @@
  * VERSION             Human-readable current version shown in the footer.
  */
 window.APP_CONFIG = {
-  // EXAMPLE value - replace with the real repository URL.
-  REPO_URL: "https://github.com/your-username/career-ai-tracker",
+  // Official repository URL
+  REPO_URL: "https://github.com/8jnicolasj8/Carrer-AI-Tracker",
 
   // No public build yet: the primary button says "Coming soon" and links to the repo.
   RELEASE_AVAILABLE: false,
