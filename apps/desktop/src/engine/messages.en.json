@@ -1,0 +1,84 @@
+{
+  "assistant_manager": {
+    "name": "Marcus Vance",
+    "role": "Assistant Manager",
+    "match_summary_win": [
+      "Clinical display out there, Boss. The boys held their tactical shape and punished them on the counter.",
+      "Terrific 3 points! Our pressing intensity rattled them from the first whistle.",
+      "Job done! That victory gives the squad tremendous momentum heading into the next fixture."
+    ],
+    "match_summary_loss": [
+      "Tough pill to swallow today. We conceded far too easily and lost our defensive discipline.",
+      "Unacceptable lapse in concentration. We need to drill defensive transitions on the training pitch tomorrow.",
+      "We were completely outworked in midfield. Heads down, we need an immediate reaction."
+    ],
+    "match_summary_draw": [
+      "A hard-fought point. We had chances to kill off the tie, but our final ball let us down.",
+      "Stalemate today. Solid at the back, but lacking that killer edge in the final third.",
+      "Points shared. Not our sharpest performance, but we stay undefeated in this stretch."
+    ],
+    "injury_concern": [
+      "Medical staff is closely monitoring player fitness levels. We cannot afford careless knocks in training.",
+      "A couple of players are carrying heavy knocks, Boss. We should consider squad rotation.",
+      "Physios report fatigue in the squad after this congested calendar run. Ice baths scheduled."
+    ],
+    "quick_next_match": [
+      "We've scouted their attacking transitions. If we close down their wide play, the match is ours.",
+      "Expect a physical battle. I've instructed the lads to match their intensity from kickoff.",
+      "They struggle against rapid counter-attacks. We must exploit the space behind their fullbacks."
+    ]
+  },
+  "youth_scout": {
+    "name": "Mateo Silva",
+    "role": "Youth Academy Scout",
+    "talent_report": [
+      "Boss, our regional scouting network spotted an exceptional raw prospect with blistering pace.",
+      "I've compiled our latest talent dossier. There are two academy midfielders ready for first-team exposure.",
+      "Scouting trip concluded. We have identified promising talent whose technical ceiling fits our club DNA."
+    ],
+    "high_risk_prospect": [
+      "High ceiling, high volatility prospect tracked. If we gamble on his development, the upside is huge.",
+      "A maverick winger caught our attention. Needs tactical maturity, but has generational flair."
+    ],
+    "academy_update": [
+      "Our Under-19 cohort won their tournament game today. The youth pipeline is flourishing under our philosophy.",
+      "Youth development metrics are trending upward. Academy coaching staff is meeting all development targets."
+    ]
+  },
+  "president": {
+    "name": "Lord Reginald Sterling",
+    "role": "Club President",
+    "winning_streak": [
+      "Splendid form, Manager. The board is thoroughly pleased with both our sporting dominance and financial stability.",
+      "Exemplary leadership. The board applauds this winning run; keep the supporters proud."
+    ],
+    "losing_streak_strict": [
+      "Our recent record is thoroughly alarming. The board requires immediate tactical rectifications.",
+      "Standards at this institution are non-negotiable. Another substandard result will trigger an extraordinary summit."
+    ],
+    "losing_streak_lenient": [
+      "Results have been difficult, but the board retains faith in your long-term sporting vision.",
+      "Every campaign experiences turbulence. Stay composed and steer the squad back to winning ways."
+    ],
+    "monthly_board_message": [
+      "The board has reviewed this month's financial records and league standing. We remain fully aligned with your direction.",
+      "End of month audit concluded. Transfer surplus is intact, and sporting targets remain within acceptable parameters."
+    ]
+  },
+  "press_officer": {
+    "name": "Chloe Hastings",
+    "role": "Head of Media & PR",
+    "cup_match_preview": [
+      "Cup fever has gripped the city! Media outlets are requesting press availability ahead of this knockout clash.",
+      "High-stakes cup tie ahead. The press room will be packed; expect tough questions regarding starting selections."
+    ],
+    "transfer_rumor": [
+      "Tabloids are linking our key players with foreign bids. I suggest a calm, dismissive stance during briefings.",
+      "A flurry of transfer speculations appeared in the sports morning press. We will manage narrative control."
+    ],
+    "media_briefing": [
+      "Journalists are buzzing after our recent results. Stay measured in the mixed zone, Manager.",
+      "Press conference room is prepared. Journalists will inevitably probe about upcoming contract renewals."
+    ]
+  }
+}

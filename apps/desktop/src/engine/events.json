@@ -1,0 +1,150 @@
+{
+  "initial_indicators": {
+    "team_morale": 70,
+    "media_pressure": 40,
+    "board_confidence": 75
+  },
+  "events": [
+    {
+      "id": "disciplinary_red_card",
+      "type": "disciplinary",
+      "title": {
+        "en": "Disciplinary Hearing: Violent Conduct / Dismissal",
+        "es": "Audiencia Disciplinaria: Conducta Violenta / Expulsión"
+      },
+      "description": {
+        "en": "Following a red card incident reported in the press, staff demands a management decision regarding player discipline.",
+        "es": "Tras la expulsión reportada por la prensa, el cuerpo técnico y directiva exigen una decisión respecto al jugador."
+      },
+      "decisions": [
+        {
+          "id": "fine_player",
+          "label": {
+            "en": "Issue Heavy Fine ($15,000)",
+            "es": "Aplicar Multa Económica ($15,000)"
+          },
+          "effects": {
+            "team_morale": -5,
+            "board_confidence": 5,
+            "media_pressure": 0
+          }
+        },
+        {
+          "id": "forgive",
+          "label": {
+            "en": "Pardon with Formal Warning",
+            "es": "Perdonar con Advertencia Formal"
+          },
+          "effects": {
+            "team_morale": 5,
+            "board_confidence": -6,
+            "media_pressure": 6
+          }
+        },
+        {
+          "id": "bench_player",
+          "label": {
+            "en": "Bench for 2 Matches",
+            "es": "Enviar a la Banca por 2 Partidos"
+          },
+          "required_benched_matches": 2,
+          "effects": {
+            "team_morale": -3,
+            "board_confidence": 8,
+            "media_pressure": -5
+          }
+        }
+      ]
+    },
+    {
+      "id": "injury_medical_report",
+      "type": "injury_update",
+      "title": {
+        "en": "Medical Room: Player Injury Update",
+        "es": "Informe Médico: Actualización de Lesión"
+      },
+      "description": {
+        "en": "The medical department confirms a player suffered physical strain and will be sidelined.",
+        "es": "El cuerpo médico confirma que un futbolista sufrió una lesión y estará de baja temporal."
+      },
+      "decisions": [
+        {
+          "id": "acknowledge_injury",
+          "label": {
+            "en": "Understood, prioritize recovery",
+            "es": "Entendido, priorizar su recuperación"
+          },
+          "effects": {
+            "team_morale": -2,
+            "board_confidence": 0,
+            "media_pressure": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "press_conference_post_match",
+      "type": "press_conference",
+      "title": {
+        "en": "Post-Match Press Conference",
+        "es": "Rueda de Prensa Post-Partido"
+      },
+      "description": {
+        "en": "Journalists ask about the team's tactical execution and future ambitions.",
+        "es": "Los medios preguntan sobre el desempeño táctico y los objetivos del equipo."
+      },
+      "decisions": [
+        {
+          "id": "press_confident",
+          "label": {
+            "en": "\"Our squad quality is undisputed; we aim for silverware.\"",
+            "es": "\"La calidad de este plantel es indiscutible; vamos por el título.\""
+          },
+          "effects": {
+            "team_morale": 6,
+            "board_confidence": 3,
+            "media_pressure": 8
+          }
+        },
+        {
+          "id": "press_cautious",
+          "label": {
+            "en": "\"We remain grounded and take it one fixture at a time.\"",
+            "es": "\"Mantenemos los pies sobre la tierra, partido a partido.\""
+          },
+          "effects": {
+            "team_morale": 2,
+            "board_confidence": 4,
+            "media_pressure": -6
+          }
+        }
+      ]
+    },
+    {
+      "id": "board_monthly_review",
+      "type": "board_message",
+      "title": {
+        "en": "Board of Directors: Monthly Assessment",
+        "es": "Junta Directiva: Balance Mensual"
+      },
+      "description": {
+        "en": "The board has concluded its monthly review of sporting trajectory and budget balance.",
+        "es": "La directiva ha concluido su evaluación periódica del rendimiento deportivo y financiero."
+      },
+      "decisions": [
+        {
+          "id": "accept_board_review",
+          "label": {
+            "en": "Acknowledge Board Review",
+            "es": "Reconocer informe de la directiva"
+          },
+          "effects": {
+            "team_morale": 2,
+            "board_confidence": 5,
+            "media_pressure": -2
+          }
+        }
+      ]
+    }
+  ]
+}

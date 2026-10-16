@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "generado_en": "2025-03-28T00:00:00Z",
+  "club": {
+    "id": 1877,
+    "nombre": "Solaria FC"
+  },
+  "jugadores": [
+    {
+      "playerid": 10001,
+      "nombre": "Felix Lindstrom",
+      "posicion": "PO",
+      "ovr": 81,
+      "camiseta": 1,
+      "partidos": 14,
+      "goles": 0,
+      "goles_confiable": true
+    },
+    {
+      "playerid": 10002,
+      "nombre": "Lucas Mercer",
+      "posicion": "LD",
+      "ovr": 77,
+      "camiseta": 4,
+      "partidos": 14,
+      "goles": 0,
+      "goles_confiable": true
+    },
+    {
+      "playerid": 10003,
+      "nombre": "Julian Ashford",
+      "posicion": "DFC",
+      "ovr": 76,
+      "camiseta": 2,
+      "partidos": 14,
+      "goles": 1,
+      "goles_confiable": true
+    },
+    {
+      "playerid": 10004,
+      "nombre": "Gabriel Valdez",
+      "posicion": "DFC",
+      "ovr": 79,
+      "camiseta": 6,
+      "partidos": 13,
+      "goles": 0,
+      "goles_confiable": true
+    },
+    {
+      "playerid": 10005,
+      "nombre": "David Moreau",
+      "posicion": "LI",
+      "ovr": 78,
+      "camiseta": 3,
+      "partidos": 14,
+      "goles": 1,
+      "goles_confiable": true
+    },
+    {
+      "playerid": 10006,
+      "nombre": "Samuel Faraday",
+      "posicion": "MCD",
+      "ovr": 82,
+      "camiseta": 5,
+      "partidos": 13,
+      "goles": 2,
+      "goles_confiable": true
+    },
+    {
+      "playerid": 10007,
+      "nombre": "Arthur Hawthorne",
+      "posicion": "MC",
+      "ovr": 80,
+      "camiseta": 8,
+      "partidos": 14,
+      "goles": 3,
+      "goles_confiable": true
+    },
+    {
+      "playerid": 10008,
+      "nombre": "Emil Novak",
+      "posicion": "MCO",
+      "ovr": 83,
+      "camiseta": 10,
+      "partidos": 11,
+      "goles": 2,
+      "goles_confiable": true
+    },
+    {
+      "playerid": 10009,
+      "nombre": "Dante Silva",
+      "posicion": "ED",
+      "ovr": 78,
+      "camiseta": 7,
+      "partidos": 14,
+      "goles": 4,
+      "goles_confiable": true
+    },
+    {
+      "playerid": 10010,
+      "nombre": "Mateo Sterling",
+      "posicion": "DC",
+      "ovr": 82,
+      "camiseta": 9,
+      "partidos": 14,
+      "goles": 8,
+      "goles_confiable": true
+    },
+    {
+      "playerid": 10011,
+      "nombre": "Leo Vanguard",
+      "posicion": "EI",
+      "ovr": 79,
+      "camiseta": 11,
+      "partidos": 14,
+      "goles": 3,
+      "goles_confiable": true
+    },
+    {
+      "playerid": 10012,
+      "nombre": "Adrian Santos",
+      "posicion": "DC",
+      "ovr": 77,
+      "camiseta": 19,
+      "partidos": 9,
+      "goles": 2,
+      "goles_confiable": true
+    },
+    {
+      "playerid": 10013,
+      "nombre": "Victor Brunner",
+      "posicion": "MC",
+      "ovr": 76,
+      "camiseta": 16,
+      "partidos": 8,
+      "goles": 0,
+      "goles_confiable": true
+    },
+    {
+      "playerid": 10014,
+      "nombre": "Hugo Kovacs",
+      "posicion": "DFC",
+      "ovr": 75,
+      "camiseta": 14,
+      "partidos": 6,
+      "goles": 0,
+      "goles_confiable": true
+    },
+    {
+      "playerid": 10015,
+      "nombre": "Bruno Gomez",
+      "posicion": "PO",
+      "ovr": 74,
+      "camiseta": 12,
+      "partidos": 1,
+      "goles": 0,
+      "goles_confiable": true
+    },
+    {
+      "playerid": 10016,
+      "nombre": "Liam Cruz",
+      "posicion": "MCD",
+      "ovr": 73,
+      "camiseta": 21,
+      "partidos": 5,
+      "goles": 0,
+      "goles_confiable": true
+    }
+  ]
+}

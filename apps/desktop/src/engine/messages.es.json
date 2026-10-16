@@ -1,0 +1,84 @@
+{
+  "assistant_manager": {
+    "name": "Marcus Vance",
+    "role": "Segundo Entrenador",
+    "match_summary_win": [
+      "¡Gran triunfo, Míster! Mantuvimos el orden táctico y castigamos sus errores en la contra.",
+      "¡Tres puntos de oro! La intensidad de nuestra presión los descolocó desde el pitido inicial.",
+      "¡Objetivo cumplido! Esta victoria llena de confianza y moral al vestuario para lo que viene."
+    ],
+    "match_summary_loss": [
+      "Dura derrota hoy. Regalamos espacios innecesarios y nos faltó contundencia defensiva.",
+      "Despiste inaceptable en defensa. Mañana mismo reforzaremos los repliegues en el entrenamiento.",
+      "Nos ganaron la batalla en el centro del campo. Toca levantar la cabeza y reaccionar de inmediato."
+    ],
+    "match_summary_draw": [
+      "Empate muy peleado. Tuvimos ocasiones claras para liquidar, pero falló la puntería final.",
+      "Reparto de puntos. El equipo estuvo sobrio atrás, pero faltó chispa en los últimos metros.",
+      "Sumamos un punto. No fue nuestro día más brillante, pero seguimos firmes en la tabla."
+    ],
+    "injury_concern": [
+      "El cuerpo médico sigue de cerca el estado físico. Hay que evitar sobrecargas en las prácticas.",
+      "Un par de titulares terminaron tocados, Míster. Deberíamos considerar rotar en el próximo choque.",
+      "Los fisioterapeutas reportan fatiga acumulada en la plantilla tras este calendario tan apretado."
+    ],
+    "quick_next_match": [
+      "Estudiamos sus transiciones ofensivas. Si tapamos sus bandas, el partido está en nuestras manos.",
+      "Se espera una batalla muy física. Ya les pedí a los muchachos igualar su intensidad desde el minuto 1.",
+      "Sufren mucho cuando se los ataca a la espalda de los laterales. Ahí está la clave para dañarlos."
+    ]
+  },
+  "youth_scout": {
+    "name": "Mateo Silva",
+    "role": "Ojeador de Cantera",
+    "talent_report": [
+      "Míster, la red de ojeo detectó una promesa excepcional con una velocidad y regate desequilibrantes.",
+      "He preparado el informe de juveniles. Hay dos mediocampistas de la academia listos para subir al primer equipo.",
+      "Gira de observación finalizada. Identificamos talento joven cuyo perfil encaja a la perfección con el club."
+    ],
+    "high_risk_prospect": [
+      "Monitoreamos a un extremo muy desequilibrante pero con carácter difícil. Si lo encauzamos, el techo es enorme.",
+      "Apareció un atacante diferente. Le falta madurez táctica, pero tiene una magia innata poco común."
+    ],
+    "academy_update": [
+      "La categoría Sub-19 ganó su partido de liga juvenil hoy. La cantera sigue respondiendo al modelo.",
+      "Los índices de desarrollo juvenil van en alza. Los entrenadores de la cantera cumplen todos los objetivos."
+    ]
+  },
+  "president": {
+    "name": "Lord Reginald Sterling",
+    "role": "Presidente del Club",
+    "winning_streak": [
+      "Forma espléndida, Entrenador. La directiva está plenamente satisfecha con los triunfos y la gestión.",
+      "Liderazgo ejemplar. La junta directiva aplaude esta racha de victorias; mantenga orgullosa a la afición."
+    ],
+    "losing_streak_strict": [
+      "Los últimos resultados son alarmantes. La directiva exige un golpe de timón inmediato en el equipo.",
+      "La exigencia de esta institución no se negocia. Otro resultado insatisfactorio forzará una reunión extraordinaria."
+    ],
+    "losing_streak_lenient": [
+      "Los resultados han sido esquivos, pero la junta directiva mantiene plena confianza en su proyecto.",
+      "Toda temporada tiene baches. Mantenga la serenidad y devuelva al equipo a la senda del triunfo."
+    ],
+    "monthly_board_message": [
+      "La junta ha analizado el balance financiero y deportivo del mes. Respaldamos su gestión deportiva.",
+      "Auditoría mensual completada. El superávit de fichajes está protegido y los objetivos se mantienen en curso."
+    ]
+  },
+  "press_officer": {
+    "name": "Chloe Hastings",
+    "role": "Jefa de Prensa y Medios",
+    "cup_match_preview": [
+      "¡Fiebre de copa en la ciudad! Los medios solicitan declaraciones antes de esta eliminatoria decisiva.",
+      "Duelo copero de alta tensión. La sala de prensa estará repleta; prepárese para preguntas sobre el once."
+    ],
+    "transfer_rumor": [
+      "La prensa sensacionalista insiste con ofertas del exterior por nuestras figuras. Sugiero prudencia ante los micrófonos.",
+      "Han surgido especulaciones de mercado en la prensa matutina. Mantendremos el control del mensaje oficial."
+    ],
+    "media_briefing": [
+      "La prensa está entusiasmada tras los últimos resultados. Mantengamos la calma en la zona mixta, Míster.",
+      "La sala de conferencias está lista. Con seguridad le consultarán sobre las próximas renovaciones de contrato."
+    ]
+  }
+}

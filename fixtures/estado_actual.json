@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "generado_en": "2025-03-28T00:00:00Z",
+  "carrera": {
+    "identidad": "Alex Vance|club:1877|liga:353|user:0",
+    "manager": "Alex Vance",
+    "club": "Solaria FC",
+    "liga": "Torneo Apertura"
+  },
+  "fecha_simulada": "2025-03-15",
+  "temporada": 1,
+  "presupuesto_fichajes": 24822800,
+  "ojeador": {
+    "nombre": "Mateo Silva",
+    "nacionalidad": "Bolivia",
+    "experiencia": 3,
+    "conocimiento": 3
+  },
+  "competiciones": [
+    {
+      "nombre": "Torneo Apertura",
+      "etapa": null,
+      "fuente": "inferido"
+    },
+    {
+      "nombre": "Copa Libertadores",
+      "etapa": "Fase de Grupos",
+      "fuente": "inferido"
+    }
+  ],
+  "registro": {
+    "pj": 14,
+    "g": 10,
+    "e": 2,
+    "p": 2,
+    "gf": 31,
+    "gc": 11,
+    "pts": 32,
+    "alcance": "liga"
+  }
+}

@@ -1,0 +1,3167 @@
+{
+  "generado": "2026-10-15T11:47:29",
+  "nota": "Cada campo indica si fue LEIDO de una tabla o si es una INFERENCIA.",
+  "fotos": [
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-12T23:08:39",
+      "slot_mostrado": "Progreso autoguardado de modo Carrera 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-01-01",
+        "raw": 20250101,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": null,
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-12T23:36:17",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-01-05",
+        "raw": 20250105,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-01-03",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-12T23:37:18",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-01-06",
+        "raw": 20250106,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-01-05",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-12T23:45:39",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-01-08",
+        "raw": 20250108,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-01-05",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-12T23:51:10",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-01-09",
+        "raw": 20250109,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-01-08",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-13T19:47:40",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-01-10",
+        "raw": 20250110,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-01-08",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-13T19:48:48",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-01-11",
+        "raw": 20250111,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-01-10",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-13T19:49:24",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-01-12",
+        "raw": 20250112,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-01-10",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-13T19:50:27",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-01-13",
+        "raw": 20250113,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-01-12",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-14T20:56:28",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-01-18",
+        "raw": 20250118,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-01-12",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-14T21:03:58",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-01-19",
+        "raw": 20250119,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-01-18",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-14T21:06:17",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-01-22",
+        "raw": 20250122,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-01-18",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-14T21:07:09",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-01-23",
+        "raw": 20250123,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-01-22",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-14T21:07:38",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-01-25",
+        "raw": 20250125,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-01-22",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-14T21:08:42",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-01-26",
+        "raw": 20250126,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-01-25",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-14T21:09:38",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-02-01",
+        "raw": 20250201,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-01-25",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-14T21:10:31",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-02-02",
+        "raw": 20250202,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-02-01",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-14T21:11:04",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-02-08",
+        "raw": 20250208,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-02-01",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-14T21:11:55",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-02-09",
+        "raw": 20250209,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-02-08",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-14T22:31:46",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-02-15",
+        "raw": 20250215,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-02-08",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": 981,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-14T22:34:33",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-02-16",
+        "raw": 20250216,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-02-15",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": 981,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-14T22:35:09",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-02-20",
+        "raw": 20250220,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-02-15",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": 981,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-14T22:36:03",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-02-21",
+        "raw": 20250221,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-02-20",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": 981,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-14T22:37:00",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-02-27",
+        "raw": 20250227,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-02-20",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": 981,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": -1,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-14T22:37:40",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-02-28",
+        "raw": 20250228,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-02-20",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": 990,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": 2,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": 2,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-14T22:38:41",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-03-01",
+        "raw": 20250301,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-02-20",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": 990,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": 2,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": 2,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-14T22:39:44",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-03-02",
+        "raw": 20250302,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-03-01",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": 990,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": 2,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": 2,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-15T11:03:07",
+      "slot_mostrado": "Progreso autoguardado de modo Carrera 2",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-03-15",
+        "raw": 20250315,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-03-12",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": 1012,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": 2,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": 2,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    },
+    {
+      "archivo": "C:\\Games\\FIFA16\\Saves\\CareerData01",
+      "fecha_archivo": "2026-10-15T11:04:24",
+      "slot_mostrado": "Carrera - Progreso DT 1",
+      "identidad_carrera": {
+        "valor": "Alex Vance|club:1877|liga:353|user:0",
+        "fuente": "leido: career_users (mPrV)",
+        "verificado": true,
+        "detalle": {
+          "userid": 0,
+          "manager": "Alex Vance",
+          "clubteamid": 1877,
+          "leagueid": 353,
+          "seasoncount": 1,
+          "usertype": 1,
+          "nationalityid": 14,
+          "career_id": "Alex Vance|club:1877|liga:353|user:0"
+        }
+      },
+      "fecha_actual_juego": {
+        "valor": "2025-03-19",
+        "raw": 20250319,
+        "fuente": "leido: career_calendar (GJUr).currdate",
+        "verificado": true
+      },
+      "temporada": {
+        "valor": 1,
+        "fuente": "leido: career_managerhistory (zgrE).season",
+        "verificado": true
+      },
+      "temporada_contador_usuario": {
+        "valor": 1,
+        "fuente": "leido: career_users (mPrV).seasoncount",
+        "verificado": true
+      },
+      "fecha_ultimo_partido": {
+        "valor": "2025-03-15",
+        "fuente": "leido: career_playermatchratinghistory (TtHG).date",
+        "verificado": true
+      },
+      "competiciones_activas": [
+        {
+          "compshortname": "C100",
+          "etapa_stageid": {
+            "valor": 1012,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": 2,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        },
+        {
+          "compshortname": "C453",
+          "etapa_stageid": {
+            "valor": -1,
+            "fuente": "leido: career_competitionprogress (NgwF).stageid",
+            "verificado": true
+          },
+          "resultado_objetivo_copa": {
+            "valor": -1,
+            "fuente": "leido: NgwF.cup_objective_result",
+            "verificado": true
+          },
+          "hasta_ahora_ganada": {
+            "valor": 0,
+            "fuente": "leido: NgwF.hasteamwon",
+            "verificado": true
+          },
+          "interpretacion_etapa": {
+            "valor": null,
+            "fuente": "inferido: el significado de cada stageid no esta documentado por el juego",
+            "verificado": false
+          }
+        }
+      ],
+      "resultado_copa_domestica": {
+        "valor": 2,
+        "fuente": "leido: career_managerhistory (zgrE).domestic_cup_result",
+        "verificado": true,
+        "interpretacion": "cambio de -1 a 2 exactamente en la foto posterior al partido de vuelta de copa (2025-02-28); la lectura de ese cambio como 'clasifico' es una INFERENCIA"
+      },
+      "liga": {
+        "leagueid": 353,
+        "fuente": "leido: zgrE.leagueid / mPrV.leagueid",
+        "tabla_de_posiciones": {
+          "disponible": false,
+          "fuente": "qdZF (leagueteamlinks) permanece con PJ=0 y PTS=0 en TODAS las fotos: no guarda la tabla en curso",
+          "verificado": true
+        },
+        "resultados_de_otros_equipos": {
+          "disponible": "parcial",
+          "fuente": "leido: career_news (ulAT) titulares tipo 'Eastern United 1-1 San Telmo' (18 casos en salidas/noticias.jsonl)",
+          "verificado": true
+        }
+      }
+    }
+  ]
+}

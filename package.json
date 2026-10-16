@@ -1,0 +1,16 @@
+{
+  "name": "career-ai-tracker-root",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm --prefix apps/desktop run dev",
+    "build": "npm --prefix apps/desktop run build",
+    "test": "npm --prefix apps/desktop test",
+    "lint": "npm --prefix apps/desktop run lint",
+    "dist": "npm --prefix apps/desktop run dist",
+    "anonymize": "node tools/anonymize-fixtures.js"
+  }
+}
