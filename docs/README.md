@@ -9,7 +9,7 @@ switcher.
 
 | Path | What it is |
 |---|---|
-| `index.html` | The page. Semantic HTML, all text referenced by `data-i18n` keys. |
+| `index.html` | The page. Semantic HTML; every string ships its English text plus a `data-i18n` key used by the switcher. |
 | `config.js` | The only source of `REPO_URL`, `RELEASE_AVAILABLE` and `VERSION`. |
 | `assets/css/styles.css` | Design tokens (colors, spacing, type) and all styles. |
 | `assets/js/i18n.js` | Every string, in English and Spanish. |
@@ -68,6 +68,11 @@ both stay visually consistent. To change the accent color, edit `--accent` and
 
 - Double-clicking `index.html` works (no server needed). Scripts are classic
   (not ES modules) so `file://` is supported.
+- The language is switched in the client: the choice is remembered in
+  `localStorage`, the default comes from `navigator.language`, and `?lang=en`
+  / `?lang=es` select a language directly. The `hreflang` alternates in
+  `index.html` point at those URLs (resolved to absolute URLs at runtime,
+  because the published domain is not known when the file is written).
 - No external requests: no fonts, images, analytics or trackers from other
   domains.
 - No real club crests, player names or EA/FIFA logos are used.

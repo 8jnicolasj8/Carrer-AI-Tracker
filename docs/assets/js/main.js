@@ -104,6 +104,27 @@
     });
   }
 
+  /* --- Link alternates ---------------------------------------------------- */
+  // The page lives on one URL and switches language in the client, so the
+  // hreflang targets are resolved against the current location at runtime:
+  // the deployment URL is not known when the file is written.
+  function applyAlternates() {
+    var links = document.querySelectorAll('link[rel="alternate"][hreflang]');
+    if (!links.length) return;
+    try {
+      var here = new URL(window.location.href);
+      Array.prototype.forEach.call(links, function (link) {
+        var lang = link.getAttribute("hreflang");
+        var target = new URL(here.href);
+        target.search = lang === "x-default" ? "" : "?lang=" + lang;
+        target.hash = "";
+        link.setAttribute("href", target.href);
+      });
+    } catch (e) {
+      /* leave the static values in place */
+    }
+  }
+
   function setLanguage(lang, persist) {
     currentLang = lang === "es" ? "es" : "en";
     if (persist) {
@@ -115,9 +136,29 @@
     }
     applyTranslations();
     applyConfig();
+    applyAlternates();
+    // Keep the URL shareable (?lang=es). Guarded so file:// and sandboxed
+    // contexts (where replaceState throws) keep working.
+    try {
+      if (window.history && window.history.replaceState) {
+        var u = new URL(window.location.href);
+        u.searchParams.set("lang", currentLang);
+        window.history.replaceState(null, "", u.pathname + u.search + u.hash);
+      }
+    } catch (e) {
+      /* ignore: the page works fine without this */
+    }
   }
 
   function initialLanguage() {
+    // 1) explicit ?lang= in the URL (used by the hreflang alternates)
+    try {
+      var fromUrl = new URLSearchParams(window.location.search).get("lang");
+      if (fromUrl === "en" || fromUrl === "es") return fromUrl;
+    } catch (e) {
+      /* URLSearchParams unavailable: fall through */
+    }
+    // 2) remembered choice
     var stored = null;
     try {
       stored = localStorage.getItem(STORAGE_KEY);
@@ -125,6 +166,7 @@
       stored = null;
     }
     if (stored === "en" || stored === "es") return stored;
+    // 3) browser language
     var nav = (navigator.language || "en").toLowerCase();
     return nav.indexOf("es") === 0 ? "es" : "en";
   }
