@@ -1,0 +1,637 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Career AI Tracker - FIFA 16 Career Mode companion</title>
+    <meta
+      name="description"
+      content="Free, open source desktop companion for FIFA 16 Career Mode. It reads your career save (read-only) and shows results, club record, squad, game news and a staff room."
+    />
+    <meta name="theme-color" content="#05121a" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="author" content="Career AI Tracker contributors" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Career AI Tracker" />
+    <meta
+      property="og:title"
+      content="Career AI Tracker - FIFA 16 Career Mode companion"
+    />
+    <meta
+      property="og:description"
+      content="A free, open source desktop companion for FIFA 16 Career Mode. Read-only: it never touches your saves."
+    />
+    <meta property="og:image" content="assets/img/og-image.png" />
+    <meta property="og:image:alt" content="Career AI Tracker - concept preview" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Career AI Tracker - FIFA 16 Career Mode companion"
+    />
+    <meta
+      name="twitter:description"
+      content="A free, open source desktop companion for FIFA 16 Career Mode. Read-only: it never touches your saves."
+    />
+    <meta name="twitter:image" content="assets/img/og-image.png" />
+
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="assets/img/favicon.svg" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <script defer src="config.js"></script>
+    <script defer src="assets/js/i18n.js"></script>
+    <script defer src="assets/js/main.js"></script>
+  </head>
+  <body>
+    <!-- SVG icon sprite (decorative, referenced with <use>) -->
+    <svg
+      width="0"
+      height="0"
+      style="position: absolute"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <symbol id="i-check" viewBox="0 0 24 24">
+        <path
+          d="M20 6 9 17l-5-5"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+      <symbol id="i-check-circle" viewBox="0 0 24 24">
+        <circle
+          cx="12"
+          cy="12"
+          r="9"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+        />
+        <path
+          d="m8.5 12.5 2.3 2.3 4.7-5"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24">
+        <path
+          d="M12 3 19 6v5.5c0 4.4-3 7.7-7 9.5-4-1.8-7-5.1-7-9.5V6z"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+          stroke-linejoin="round"
+        />
+      </symbol>
+      <symbol id="i-key" viewBox="0 0 24 24">
+        <circle
+          cx="8"
+          cy="15"
+          r="3.2"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+        />
+        <path
+          d="M10.6 13.4 20 4m-3 0h3v3"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+      <symbol id="i-window" viewBox="0 0 24 24">
+        <rect
+          x="3"
+          y="4"
+          width="18"
+          height="13"
+          rx="2"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+        />
+        <path
+          d="M3 8h18"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+        />
+        <path
+          d="M9 21h6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+          stroke-linecap="round"
+        />
+      </symbol>
+      <symbol id="i-github" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.35 1.09 2.92.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"
+        />
+      </symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24">
+        <path
+          d="M5 12h14m-6-6 6 6-6 6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+      <symbol id="i-download" viewBox="0 0 24 24">
+        <path
+          d="M12 3v12m0 0-4-4m4 4 4-4M5 21h14"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+      <symbol id="i-spark" viewBox="0 0 24 24">
+        <path
+          d="M12 3.5 13.7 9 19 10.5 13.7 12 12 17.5 10.3 12 5 10.5 10.3 9z"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M18.5 15.5l.7 2.1 2.1.7-2.1.7-.7 2.1-.7-2.1-2.1-.7 2.1-.7z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="i-users" viewBox="0 0 24 24">
+        <circle
+          cx="9"
+          cy="8"
+          r="3.2"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+        />
+        <path
+          d="M3.5 20c0-3 2.5-5 5.5-5s5.5 2 5.5 5"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+          stroke-linecap="round"
+        />
+        <path
+          d="M16 5.5a3 3 0 0 1 0 6M18 20c0-2.2-.8-3.9-2-4.7"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+          stroke-linecap="round"
+        />
+      </symbol>
+      <symbol id="i-flag" viewBox="0 0 24 24">
+        <path
+          d="M6 21V4m0 0c4-2 7 2 11 0v9c-4 2-7-2-11 0"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+      <symbol id="i-lock" viewBox="0 0 24 24">
+        <rect
+          x="4.5"
+          y="10"
+          width="15"
+          height="10"
+          rx="2"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+        />
+        <path
+          d="M8 10V7.5a4 4 0 0 1 8 0V10"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+        />
+      </symbol>
+      <symbol id="i-info" viewBox="0 0 24 24">
+        <circle
+          cx="12"
+          cy="12"
+          r="9"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+        />
+        <path
+          d="M12 11v5m0-8.5v.01"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+        />
+      </symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24">
+        <path
+          d="M4 7h16M4 12h16M4 17h16"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+        />
+      </symbol>
+    </svg>
+
+    <a class="skip" href="#main" data-i18n="a11y.skip">Skip to content</a>
+
+    <header class="nav">
+      <div class="container nav__inner">
+        <a class="brand" href="#home">
+          <svg aria-hidden="true"><use href="#i-spark" /></svg>
+          <span>Career AI Tracker<small>FIFA 16 Companion</small></span>
+        </a>
+
+        <nav
+          class="nav__links"
+          id="nav-links"
+          aria-label="Main"
+        >
+          <a href="#home" data-i18n="nav.home">Home</a>
+          <a href="#features" data-i18n="nav.features">Features</a>
+          <a href="#how" data-i18n="nav.how">How it works</a>
+          <a href="#screenshots" data-i18n="nav.screenshots">Screenshots</a>
+          <a href="#download" data-i18n="nav.download">Download</a>
+          <a href="#faq" data-i18n="nav.faq">FAQ</a>
+        </nav>
+
+        <div class="nav__actions">
+          <div class="lang" role="group" data-i18n-aria-label="lang.label" aria-label="Language">
+            <button type="button" data-lang="en" aria-pressed="true" data-i18n="lang.en">EN</button>
+            <button type="button" data-lang="es" aria-pressed="false" data-i18n="lang.es">ES</button>
+          </div>
+          <a class="btn btn--ghost btn--sm" data-link="repo" href="#">
+            <svg class="btn__icon" aria-hidden="true"><use href="#i-github" /></svg>
+            <span data-i18n="nav.github">GitHub</span>
+          </a>
+          <button
+            class="nav__toggle"
+            id="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="nav-links"
+            data-i18n-aria-label="nav.menu"
+            aria-label="Open menu"
+          >
+            <svg width="20" height="20" aria-hidden="true"><use href="#i-menu" /></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <section class="section hero" id="home">
+        <div class="container hero__grid">
+          <div>
+            <p class="eyebrow" data-i18n="hero.eyebrow">
+              AI-powered companion for FIFA 16 Career Mode
+            </p>
+            <h1>
+              <span data-i18n="hero.titleA">Level Up Your</span>
+              <span class="accent" data-i18n="hero.titleB">FIFA 16 Career Mode</span>
+            </h1>
+            <p class="hero__sub" data-i18n="hero.sub"></p>
+            <div class="hero__cta">
+              <a class="btn btn--primary" data-cta="primary" href="#download">
+                <svg class="btn__icon" aria-hidden="true"><use href="#i-download" /></svg>
+                <span data-cta-label>Download for Windows</span>
+              </a>
+              <a class="btn btn--ghost" data-link="repo" href="#">
+                <svg class="btn__icon" aria-hidden="true"><use href="#i-github" /></svg>
+                <span data-i18n="hero.ctaSecondary">View on GitHub</span>
+              </a>
+            </div>
+            <div class="status-band">
+              <span class="dot" aria-hidden="true"></span>
+              <span data-i18n="hero.status">Beta in development</span>
+            </div>
+            <ul class="badges">
+              <li>
+                <svg aria-hidden="true"><use href="#i-check-circle" /></svg>
+                <span data-i18n="hero.badge.free">Free &amp; open source (MIT)</span>
+              </li>
+              <li>
+                <svg aria-hidden="true"><use href="#i-shield" /></svg>
+                <span data-i18n="hero.badge.readonly">Read-only: never touches your saves</span>
+              </li>
+              <li>
+                <svg aria-hidden="true"><use href="#i-key" /></svg>
+                <span data-i18n="hero.badge.key">Bring your own AI key</span>
+              </li>
+              <li>
+                <svg aria-hidden="true"><use href="#i-window" /></svg>
+                <span data-i18n="hero.badge.windows">Windows</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero__art">
+            <img
+              src="assets/img/hero-preview.svg"
+              width="900"
+              height="640"
+              alt="Concept preview of the Career AI Tracker dashboard."
+              data-i18n-alt="hero.alt"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section class="section" id="features">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 data-i18n="features.title">Everything your career mode needs</h2>
+            <p class="lead" data-i18n="features.sub"></p>
+          </div>
+          <div class="grid-3">
+            <article class="card glass reveal">
+              <div class="card__icon"><svg aria-hidden="true"><use href="#i-check-circle" /></svg></div>
+              <h3 data-i18n="features.c1.title">Save-aware dashboard</h3>
+              <p data-i18n="features.c1.desc"></p>
+              <ul>
+                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c1.b1"></span></li>
+                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c1.b2"></span></li>
+                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c1.b3"></span></li>
+              </ul>
+            </article>
+            <article class="card glass reveal">
+              <div class="card__icon"><svg aria-hidden="true"><use href="#i-users" /></svg></div>
+              <h3 data-i18n="features.c2.title">Staff room</h3>
+              <p data-i18n="features.c2.desc"></p>
+              <ul>
+                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c2.b1"></span></li>
+                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c2.b2"></span></li>
+              </ul>
+            </article>
+            <article class="card glass reveal">
+              <div class="card__icon"><svg aria-hidden="true"><use href="#i-flag" /></svg></div>
+              <h3 data-i18n="features.c3.title">Club events with consequences</h3>
+              <p data-i18n="features.c3.desc"></p>
+              <ul>
+                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c3.b1"></span></li>
+                <li><svg aria-hidden="true"><use href="#i-check" /></svg><span data-i18n="features.c3.b2"></span></li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- How it works -->
+      <section class="section section--tight" id="how">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 data-i18n="how.title">How it works</h2>
+            <p class="lead" data-i18n="how.sub"></p>
+          </div>
+          <ol class="steps">
+            <li class="step glass reveal">
+              <span class="step__num">1</span>
+              <h3 data-i18n="how.s1.title">Play and save</h3>
+              <p data-i18n="how.s1.desc"></p>
+            </li>
+            <li class="step glass reveal">
+              <span class="step__num">2</span>
+              <h3 data-i18n="how.s2.title">The app reads your save, read-only</h3>
+              <p data-i18n="how.s2.desc"></p>
+            </li>
+            <li class="step glass reveal">
+              <span class="step__num">3</span>
+              <h3 data-i18n="how.s3.title">Your staff and events react</h3>
+              <p data-i18n="how.s3.desc"></p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Bring your own AI key -->
+      <section class="section" id="ai">
+        <div class="container ai">
+          <div class="reveal">
+            <p class="eyebrow" data-i18n="ai.eyebrow">Bring your own AI key</p>
+            <h2 data-i18n="ai.title">Use your own AI provider</h2>
+            <p class="lead" data-i18n="ai.sub"></p>
+            <div class="providers">
+              <span class="chip"><svg aria-hidden="true"><use href="#i-spark" /></svg>OpenAI</span>
+              <span class="chip">Anthropic</span>
+              <span class="chip">Gemini</span>
+              <span class="chip">DeepSeek</span>
+              <span class="chip">Groq</span>
+              <span class="chip" data-i18n="ai.providerNote">OpenAI-compatible: local models and more</span>
+            </div>
+            <p class="soon">
+              <svg width="18" height="18" aria-hidden="true"><use href="#i-info" /></svg>
+              <span data-i18n="ai.badge">Coming in Beta 0.3</span>
+            </p>
+            <p class="note" data-i18n="ai.note"></p>
+          </div>
+
+          <div class="keycard glass reveal">
+            <p class="keycard__label" data-i18n="ai.keyLabel">Your API key</p>
+            <div class="keycard__field" aria-hidden="true">
+              <span>••••••••••••••••••</span>
+              <svg><use href="#i-check-circle" /></svg>
+            </div>
+            <ul class="keycard__orrows">
+              <li class="keycard__orrow"><svg aria-hidden="true"><use href="#i-users" /></svg><b data-i18n="ai.role1">President</b></li>
+              <li class="keycard__orrow"><svg aria-hidden="true"><use href="#i-users" /></svg><b data-i18n="ai.role2">Assistant Manager</b></li>
+              <li class="keycard__orrow"><svg aria-hidden="true"><use href="#i-users" /></svg><b data-i18n="ai.role3">Scout</b></li>
+              <li class="keycard__orrow"><svg aria-hidden="true"><use href="#i-users" /></svg><b data-i18n="ai.role4">Press Officer</b></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Roadmap -->
+      <section class="section section--tight" id="roadmap">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 data-i18n="roadmap.title">Roadmap</h2>
+            <p class="lead" data-i18n="roadmap.sub"></p>
+          </div>
+          <div class="roadmap">
+            <article class="phase phase--current glass reveal">
+              <span class="phase__tag" data-i18n="roadmap.p1.tag">Beta 0.1</span>
+              <h3 data-i18n="roadmap.p1.title"></h3>
+              <p data-i18n="roadmap.p1.desc"></p>
+              <span class="phase__badge" data-i18n="roadmap.current">Current</span>
+            </article>
+            <article class="phase glass reveal">
+              <span class="phase__tag" data-i18n="roadmap.p2.tag">Beta 0.2</span>
+              <h3 data-i18n="roadmap.p2.title"></h3>
+              <p data-i18n="roadmap.p2.desc"></p>
+            </article>
+            <article class="phase glass reveal">
+              <span class="phase__tag" data-i18n="roadmap.p3.tag">Beta 0.3</span>
+              <h3 data-i18n="roadmap.p3.title"></h3>
+              <p data-i18n="roadmap.p3.desc"></p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Screenshots -->
+      <section class="section" id="screenshots">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 data-i18n="shots.title">Screenshots</h2>
+            <p class="lead" data-i18n="shots.sub"></p>
+          </div>
+          <div class="shots">
+            <figure class="shot glass reveal">
+              <div class="shot__frame">
+                <img src="assets/img/preview-dashboard.svg" width="720" height="460" alt="" data-i18n-alt="shots.s1.alt" />
+              </div>
+              <figcaption>
+                <h3 data-i18n="shots.s1">Dashboard</h3>
+                <span class="tag" data-i18n="shots.tag">Concept preview</span>
+              </figcaption>
+            </figure>
+            <figure class="shot glass reveal">
+              <div class="shot__frame">
+                <img src="assets/img/preview-squad.svg" width="720" height="460" alt="" data-i18n-alt="shots.s2.alt" />
+              </div>
+              <figcaption>
+                <h3 data-i18n="shots.s2">Squad</h3>
+                <span class="tag" data-i18n="shots.tag">Concept preview</span>
+              </figcaption>
+            </figure>
+            <figure class="shot glass reveal">
+              <div class="shot__frame">
+                <img src="assets/img/preview-staff.svg" width="720" height="460" alt="" data-i18n-alt="shots.s3.alt" />
+              </div>
+              <figcaption>
+                <h3 data-i18n="shots.s3">Staff room</h3>
+                <span class="tag" data-i18n="shots.tag">Concept preview</span>
+              </figcaption>
+            </figure>
+            <figure class="shot glass reveal">
+              <div class="shot__frame">
+                <img src="assets/img/preview-settings.svg" width="720" height="460" alt="" data-i18n-alt="shots.s4.alt" />
+              </div>
+              <figcaption>
+                <h3 data-i18n="shots.s4">Settings</h3>
+                <span class="tag" data-i18n="shots.tag">Concept preview</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Download -->
+      <section class="section" id="download">
+        <div class="container">
+          <div class="download glass reveal">
+            <h2 data-i18n="download.title">Download</h2>
+            <p class="lead" data-i18n="download.sub"></p>
+            <div class="reqs">
+              <span class="chip"><svg aria-hidden="true"><use href="#i-window" /></svg><span data-i18n="download.req1"></span></span>
+              <span class="chip"><svg aria-hidden="true"><use href="#i-flag" /></svg><span data-i18n="download.req2"></span></span>
+            </div>
+            <div class="hero__cta">
+              <a class="btn btn--primary" data-cta="primary" href="#download">
+                <svg class="btn__icon" aria-hidden="true"><use href="#i-download" /></svg>
+                <span data-cta-label>Download for Windows</span>
+              </a>
+              <a class="btn btn--ghost" data-link="repo" href="#">
+                <svg class="btn__icon" aria-hidden="true"><use href="#i-github" /></svg>
+                <span data-i18n="download.build">Build from source</span>
+              </a>
+            </div>
+            <p class="note">
+              <span data-i18n="download.note"></span>
+              <br />
+              <span data-i18n="download.disclaimer"></span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section" id="faq">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 data-i18n="faq.title">Frequently asked questions</h2>
+          </div>
+          <div class="faq">
+            <details class="reveal">
+              <summary><span data-i18n="faq.q1"></span></summary>
+              <p data-i18n="faq.a1"></p>
+            </details>
+            <details class="reveal">
+              <summary><span data-i18n="faq.q2"></span></summary>
+              <p data-i18n="faq.a2"></p>
+            </details>
+            <details class="reveal">
+              <summary><span data-i18n="faq.q3"></span></summary>
+              <p data-i18n="faq.a3"></p>
+            </details>
+            <details class="reveal">
+              <summary><span data-i18n="faq.q4"></span></summary>
+              <p data-i18n="faq.a4"></p>
+            </details>
+            <details class="reveal">
+              <summary><span data-i18n="faq.q5"></span></summary>
+              <p data-i18n="faq.a5"></p>
+            </details>
+            <details class="reveal">
+              <summary><span data-i18n="faq.q6"></span></summary>
+              <p data-i18n="faq.a6"></p>
+            </details>
+            <details class="reveal">
+              <summary><span data-i18n="faq.q7"></span></summary>
+              <p data-i18n="faq.a7"></p>
+            </details>
+            <details class="reveal">
+              <summary><span data-i18n="faq.q8"></span></summary>
+              <p data-i18n="faq.a8"></p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <a class="brand" href="#home">
+            <svg aria-hidden="true"><use href="#i-spark" /></svg>
+            <span>Career AI Tracker<small>FIFA 16 Companion</small></span>
+          </a>
+          <nav class="footer__links" aria-label="Footer">
+            <a data-link="repo" href="#" data-i18n="footer.github">GitHub</a>
+            <a data-link="issues" href="#" data-i18n="footer.issues">Issues</a>
+            <a data-link="license" href="#" data-i18n="footer.license">MIT license</a>
+          </nav>
+        </div>
+        <p class="footer__legal" data-i18n="footer.legal"></p>
+        <p class="footer__meta">
+          <span data-i18n="footer.versionLabel">Version</span>:
+          <span id="app-version">Beta 0.1</span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
