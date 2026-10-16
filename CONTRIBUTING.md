@@ -13,8 +13,8 @@ Thank you for your interest in contributing to Career AI Tracker!
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/career-ai-tracker.git
-cd career-ai-tracker
+git clone https://github.com/8jnicolasj8/Carrer-AI-Tracker.git
+cd Carrer-AI-Tracker
 
 # Install dependencies in the desktop app
 cd apps/desktop
