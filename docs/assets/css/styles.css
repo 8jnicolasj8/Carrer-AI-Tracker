@@ -119,7 +119,7 @@ ul {
   --fs-body: 1rem;
   --fs-sm: 0.875rem;
   --fs-xs: 0.78rem;
-  --fs-h1: clamp(2.1rem, 5.4vw, 3.6rem);
+  --fs-h1: clamp(1.95rem, 4.8vw, 2.85rem);
   --fs-h2: clamp(1.6rem, 3.4vw, 2.3rem);
   --fs-h3: 1.15rem;
   --fs-lead: clamp(1rem, 1.6vw, 1.18rem);
@@ -383,7 +383,7 @@ ul {
 /* --- Hero ---------------------------------------------------------------- */
 .hero {
   position: relative;
-  padding-block: clamp(2.5rem, 6vw, 4.5rem) var(--section-y);
+  padding-block: clamp(2.25rem, 5vw, 3.5rem) clamp(2.5rem, 5vw, 3.5rem);
   overflow: hidden;
 }
 
@@ -411,7 +411,6 @@ ul {
 
 .hero h1 {
   font-size: var(--fs-h1);
-  max-width: 16ch;
 }
 
 .hero h1 .accent {
@@ -928,13 +927,14 @@ details p {
   color: var(--text-dim);
 }
 
-/* --- Reveal (motion) ----------------------------------------------------- */
-.reveal {
+/* --- Reveal (motion, progressive enhancement) --------------------------- */
+/* Content is visible by default; only pages with JS enable the reveal. */
+.js .reveal {
   opacity: 0;
   transform: translateY(18px);
 }
 
-.reveal.is-visible {
+.js .reveal.is-visible {
   opacity: 1;
   transform: none;
   transition: opacity 480ms var(--ease-out), transform 480ms var(--ease-out);
@@ -958,7 +958,7 @@ details p {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .nav__links {
     position: fixed;
     inset: var(--nav-h) 0 auto 0;
@@ -985,11 +985,15 @@ details p {
     display: inline-flex;
     margin-left: auto;
   }
+}
 
+@media (max-width: 560px) {
   .nav__actions .btn--ghost {
     display: none;
   }
+}
 
+@media (max-width: 720px) {
   .grid-3,
   .steps,
   .roadmap,
@@ -999,8 +1003,20 @@ details p {
 }
 
 @media (max-width: 420px) {
+  .nav__inner {
+    gap: var(--s-3);
+  }
+
+  .brand {
+    font-size: 0.95rem;
+  }
+
   .brand small {
     display: none;
+  }
+
+  .lang button {
+    padding: 0.3rem 0.5rem;
   }
 
   .hero__cta .btn {
@@ -1023,7 +1039,7 @@ details p {
     transition-duration: 0.001ms !important;
   }
 
-  .reveal {
+  .js .reveal {
     opacity: 1;
     transform: none;
   }

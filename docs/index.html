@@ -40,6 +40,10 @@
 
     <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="assets/img/favicon.svg" />
+    <script>
+      /* Progressive enhancement: reveal-on-scroll only when JS is available. */
+      document.documentElement.className += " js";
+    </script>
     <link rel="stylesheet" href="assets/css/styles.css" />
 
     <script defer src="config.js"></script>
@@ -266,7 +270,8 @@
         <nav
           class="nav__links"
           id="nav-links"
-          aria-label="Main"
+          aria-label="Main navigation"
+          data-i18n-aria-label="a11y.mainNav"
         >
           <a href="#home" data-i18n="nav.home">Home</a>
           <a href="#features" data-i18n="nav.features">Features</a>
@@ -620,7 +625,11 @@
             <svg aria-hidden="true"><use href="#i-spark" /></svg>
             <span>Career AI Tracker<small>FIFA 16 Companion</small></span>
           </a>
-          <nav class="footer__links" aria-label="Footer">
+          <nav
+            class="footer__links"
+            aria-label="Footer navigation"
+            data-i18n-aria-label="a11y.footerNav"
+          >
             <a data-link="repo" href="#" data-i18n="footer.github">GitHub</a>
             <a data-link="issues" href="#" data-i18n="footer.issues">Issues</a>
             <a data-link="license" href="#" data-i18n="footer.license">MIT license</a>

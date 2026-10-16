@@ -171,6 +171,12 @@
     items.forEach(function (el) {
       io.observe(el);
     });
+    // Safety net: never leave content hidden if the observer does not fire.
+    window.setTimeout(function () {
+      items.forEach(function (el) {
+        el.classList.add("is-visible");
+      });
+    }, 2000);
   }
 
   /* --- Boot -------------------------------------------------------------- */

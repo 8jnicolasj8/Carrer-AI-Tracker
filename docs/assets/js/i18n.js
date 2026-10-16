@@ -24,9 +24,13 @@ window.I18N = {
     "lang.en": "EN",
     "lang.es": "ES",
 
+    "a11y.skip": "Skip to content",
+    "a11y.mainNav": "Main navigation",
+    "a11y.footerNav": "Footer navigation",
+
     "hero.eyebrow": "AI-powered companion for FIFA 16 Career Mode",
     "hero.titleA": "Level Up Your",
-    "hero.titleB": "FIFA 16 Career Mode",
+    "hero.titleB": "FIFA\u00a016 Career Mode",
     "hero.sub":
       "A desktop app that reads your FIFA 16 career save and turns it into results, club record, squad detail, game news and a staff room. Read-only: it never writes to your saves.",
     "hero.ctaPrimary": "Download for Windows",
@@ -179,9 +183,13 @@ window.I18N = {
     "lang.en": "EN",
     "lang.es": "ES",
 
+    "a11y.skip": "Saltar al contenido",
+    "a11y.mainNav": "Navegaci\u00f3n principal",
+    "a11y.footerNav": "Navegaci\u00f3n del pie",
+
     "hero.eyebrow": "Compañero con IA para el Modo Carrera de FIFA 16",
-    "hero.titleA": "Lleva al siguiente nivel tu",
-    "hero.titleB": "Modo Carrera de FIFA 16",
+    "hero.titleA": "Sube de nivel tu",
+    "hero.titleB": "Modo Carrera de FIFA\u00a016",
     "hero.sub":
       "Una app de escritorio que lee el guardado de tu carrera de FIFA 16 y lo convierte en resultados, récord del club, detalle de plantilla, noticias del juego y una sala de staff. Solo lectura: nunca escribe en tus guardados.",
     "hero.ctaPrimary": "Descargar para Windows",
